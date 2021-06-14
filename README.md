@@ -1,2 +1,2 @@
 # GFG-website
-<img src="./images/logo/logo.png" alt="logo" />
+<img src="./image/logo/logo.png" alt="logo" />
