@@ -11,3 +11,32 @@ body {
 .font-black {
   color: black !important;
 }
+
+/* navbar links and icons color not working on toggle view so making manually */
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.55) !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.55) !important;
+  border-color: rgba(0,0,0,.1) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+div .toggle-button {
+  background-image: url(../image/icons/night.png);
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 100px;
+  width: 100px;
+  border: none;
+}
+
+.day-img {
+  background-image: url(../image/icons/sun.png) !important;
+}
