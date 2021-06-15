@@ -1,0 +1,13 @@
+body {
+  color: white;
+}
+
+.bg-bright {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* links did not auto change on day night color change so making manually*/
+.font-black {
+  color: black !important;
+}
