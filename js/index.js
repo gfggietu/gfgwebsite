@@ -2,20 +2,18 @@ function toggletheme() {
   var element = document.body;
   element.classList.toggle("bg-bright");
 
-  // var afontcolor = document.getElementsByTagName("");
-  // for(var i=0;i<afontcolor.length;i++)
-  //   afontcolor[i].classList.toggle("font-black");
-
-  // var afontcolor = document.getElementsByTagName("div");
-  // for(var i=0;i<afontcolor.length;i++)
-  //   afontcolor[i].classList.toggle("font-black");
-
   var navmy = document.getElementsByTagName("nav");
-  // for(var i=0;i<afontcolor.length;i++)
-  navmy[0].classList.toggle("navbar-light" || "navbar-dark");
-  // navmy[0].classList.remove("navbar-dark");
-  
+  navmy[0].classList.toggle("navbar-light");
+
   var btnimg = document.getElementById("toggle-button");
-  // btnimg.style.backgroundImage = "url(../image/icons/sun.png)";
   btnimg.classList.toggle("day-img");
+}
+
+function mouseover() {
+  var btnimg = document.getElementById("toggle-button");
+  // console.log(btnimg.classList[1]); // don't remove it's for testing
+  if(btnimg.classList[1]=="day-img" || btnimg.classList[1]=="day-img-hover")
+    btnimg.classList.toggle("day-img-hover");
+  else
+    btnimg.classList.toggle("toggle-button-hover");
 }
