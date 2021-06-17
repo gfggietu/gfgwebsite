@@ -141,14 +141,6 @@ body {
   text-align: center;
 }
 
-.card .details h2 {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  font-size: 20px;
-  color: #777;
-} 
-
 .card .details h2 span {
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +149,10 @@ body {
   margin-top: 5px;
 } 
 
+a {
+  color: rgb(83, 81, 81);
+  text-decoration: none !important;
+}
 
 @-webkit-keyframes track-in-out {
   0% {
