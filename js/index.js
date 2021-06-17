@@ -25,7 +25,7 @@ window.onscroll = function() {
   if ( currentScrollPos <= 30) {
     document.getElementById("toggle-button").style.top = "20px";
   } else {
-    document.getElementById("toggle-button").style.top = "-50px";
+    document.getElementById("toggle-button").style.top = "-180px";
   }
   prevScrollpos = currentScrollPos;
 }
