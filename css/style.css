@@ -60,17 +60,17 @@ body {
 }
 
 .carousel-item img {
-  height : 600px;
+  height : 300px;
 }
 
 @media (max-width: 762px) {
   .carousel-item img {
-    height : 300px;
+    height : 150px;
   }
 }
 @media (max-width: 350px) {
   .carousel-item img {
-    height : 200px;
+    height : 100px;
   }
 }
 
@@ -209,12 +209,12 @@ h1 span {
   animation: bounce .3s ease infinite alternate;
   font-family: 'Titan One', cursive;
   font-size: 5rem;
-  color: #FFF;
-  text-shadow: 0 1px 0 #CCC,
-               0 2px 0 #CCC,
-               0 3px 0 #CCC,
-               0 4px 0 #CCC,
-               0 5px 0 #CCC,
+  color: rgb(230, 227, 227);
+  text-shadow: 0 1px 0 rgb(159, 159, 159),
+               0 2px 0 rgb(159, 159, 159),
+               0 3px 0 rgb(159, 159, 159),
+               0 4px 0 rgb(159, 159, 159),
+               0 5px 0 rgb(159, 159, 159),
                0 6px 0 transparent,
                0 7px 0 transparent,
                0 8px 0 transparent,
