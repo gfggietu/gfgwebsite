@@ -30,31 +30,44 @@ body {
 
 .toggle-button {
   background-image: url(../image/icons/moon-stars.svg);
-  background-color: transparent !important;
+  background-size: 30px;
+  background-color: rgb(159, 157, 157) !important;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   /* put the height and width of your image here */
+  border-radius: 50%;
   height: 50px;
   width: 50px;
   border: none;
+  position: fixed;
+  z-index: 10;
+  right: 100px;
+  top: 20px;
 }
 
 .toggle-button-hover {
   background-image: url(../image/icons/moon-stars-fill.svg) !important;
-  text-shadow: 5px 10px red;
+  box-shadow: 0px 0px 50px white;
 }
 
 .day-img {
   background-image: url(../image/icons/brightness-high.svg) !important;
+  background-color: transparent !important;
 }
 
 .day-img-hover {
   background-image: url(../image/icons/brightness-high-fill.svg) !important;
 }
 
+.carousel-item img {
+  height : 600px;
+}
 
-
-
+@media (max-width: 762px) {
+  .carousel-item img {
+    height : 300px;
+  }
+}
 .box{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -223,4 +236,28 @@ h1 span {
                  0 9px 0 #CCC,
                  0 50px 25px rgba(0, 0, 0, .2);
   }
+}
+
+
+.notify {
+  margin-top: 40px;
+}
+
+.notify p {
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+
+.notify span input{
+  width: 15rem;
+}
+
+.notify span button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.neon-border-btn.black-btn {
+  color: #a2a0a0 !important;
+  border: #a2a0a0 solid 2px !important;
 }

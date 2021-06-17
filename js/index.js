@@ -17,3 +17,15 @@ function mouseover() {
   else
     btnimg.classList.toggle("toggle-button-hover");
 }
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  
+  if ( currentScrollPos <= 30) {
+    document.getElementById("toggle-button").style.top = "20px";
+  } else {
+    document.getElementById("toggle-button").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
