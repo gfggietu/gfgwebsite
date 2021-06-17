@@ -68,6 +68,12 @@ body {
     height : 300px;
   }
 }
+@media (max-width: 350px) {
+  .carousel-item img {
+    height : 200px;
+  }
+}
+
 .box{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -189,8 +195,6 @@ a {
   animation-iteration-count: infinite;
 }
 
-
-
 h1 {
   margin: 30px;
   align-self: center;
@@ -200,11 +204,11 @@ h1 {
 
 h1 span {
   position: relative;
-  top: 20px;
+  /* top: 20px; */
   display: inline-block;
   animation: bounce .3s ease infinite alternate;
   font-family: 'Titan One', cursive;
-  font-size: 80px;
+  font-size: 5rem;
   color: #FFF;
   text-shadow: 0 1px 0 #CCC,
                0 2px 0 #CCC,
@@ -216,6 +220,30 @@ h1 span {
                0 8px 0 transparent,
                0 9px 0 transparent,
                0 10px 10px rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 500px) {
+  h1 span {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 span {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 345px) {
+  h1 span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 310px) {
+  h1 span {
+    font-size: 2rem;
+  }
 }
 
 @keyframes bounce {
